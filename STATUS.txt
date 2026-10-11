@@ -1,0 +1,16 @@
+VERIFIED SOURCE RELEASE
+Release date: 2026-10-09 (Europe/Rome). License: MIT.
+
+67/67 full tests and 52/52 base tests passed. Code Analyzer: zero messages.
+Fresh archive extraction passed in a separate MATLAB process without workspace
+dependencies. Base/shared-only and base/shared/Statistics-only runs also passed.
+Source allowlist, privacy checks and SHA-256 verification passed.
+
+Contains 13 public MATLAB functions, three test classes, documentation, license,
+verification metadata and a file manifest. No research datasets, fitted research
+models, workbooks, figures, result exports or private review artifacts are included.
+
+See README.md, RELEASE_NOTES.md and VERIFICATION.md for scope and limitations.
+Synthetic checks do not reproduce scientific study results or prove bug-freedom.
+Only this source release is intended for redistribution; keep caller outputs
+outside it. No online publication was performed by this task.

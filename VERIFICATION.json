@@ -1,0 +1,904 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Europe/Rome",
+  "passed": true,
+  "matlabVersion": "25.1.0.2973910 (R2025a) Update 1",
+  "fullSuite": {
+    "passed": true,
+    "matlabVersion": "25.1.0.2973910 (R2025a) Update 1",
+    "includeToolboxTests": true,
+    "testCount": 67,
+    "passedCount": 67,
+    "failedCount": 0,
+    "incompleteCount": 0,
+    "durationSeconds": 19.7791225,
+    "tests": [
+      {
+        "name": "customPLSTest/matchesPLSReference(component=1,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.5819787999999999
+      },
+      {
+        "name": "customPLSTest/matchesPLSReference(component=1,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.052542599999999995
+      },
+      {
+        "name": "customPLSTest/matchesPLSReference(component=2,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0380796
+      },
+      {
+        "name": "customPLSTest/matchesPLSReference(component=2,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0319055
+      },
+      {
+        "name": "customPLSTest/matchesPLSReference(component=3,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0840275
+      },
+      {
+        "name": "customPLSTest/matchesPLSReference(component=3,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0063620000000000005
+      },
+      {
+        "name": "customPLSTest/matchesPLSReference(component=4,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0031515000000000002
+      },
+      {
+        "name": "customPLSTest/matchesPLSReference(component=4,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0033653
+      },
+      {
+        "name": "customPLSTest/exactRegression",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0266642
+      },
+      {
+        "name": "customPLSTest/fullRankMatchesOLS",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0078583
+      },
+      {
+        "name": "customPLSTest/rankExhaustion",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.030815000000000002
+      },
+      {
+        "name": "customPLSTest/constantResponse",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0126183
+      },
+      {
+        "name": "customPLSTest/constantPredictors",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.015497899999999998
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=1,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0128463
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=1,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.011517
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=2,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0441699
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=2,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0075031
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=3,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0079832
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=3,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.005177200000000001
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=4,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0048015
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=4,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0046762999999999996
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=1,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.043616300000000004
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=1,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0101749
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=2,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0092571
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=2,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0072695
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=3,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0182123
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=3,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0044373
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=4,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0038726
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=4,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0040084
+      },
+      {
+        "name": "customPLSTest/validationLabelsAreIsolated(reduce=false,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0212655
+      },
+      {
+        "name": "customPLSTest/validationLabelsAreIsolated(reduce=false,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0087548
+      },
+      {
+        "name": "customPLSTest/validationLabelsAreIsolated(reduce=true,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.07812580000000001
+      },
+      {
+        "name": "customPLSTest/validationLabelsAreIsolated(reduce=true,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0225381
+      },
+      {
+        "name": "customPLSTest/reducedPredictorsStayAligned",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.023057699999999997
+      },
+      {
+        "name": "customPLSTest/incompleteAndEmptyInference",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0285038
+      },
+      {
+        "name": "customPLSTest/invalidShapesAndFolds",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.1964131
+      },
+      {
+        "name": "customPLSTest/rowSNV",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0461557
+      },
+      {
+        "name": "customPLSTest/publicVerification",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.18569940000000001
+      },
+      {
+        "name": "exportTest/generatorDeterminismAndRNG",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 1.084124
+      },
+      {
+        "name": "exportTest/defaultDoesNotWrite",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 1.136564
+      },
+      {
+        "name": "exportTest/exportFormats(format=mat)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.2984764
+      },
+      {
+        "name": "exportTest/exportFormats(format=csv)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.8264145
+      },
+      {
+        "name": "exportTest/exportFormats(format=both)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.4461529
+      },
+      {
+        "name": "exportTest/repeatedExportsStayIntact",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.2545768
+      },
+      {
+        "name": "exportTest/rejectsNonSyntheticMetadata",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0849668
+      },
+      {
+        "name": "exportTest/failedExportIsPartial",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.3037028
+      },
+      {
+        "name": "exportTest/repeatedResultsStayIntact",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.3722872
+      },
+      {
+        "name": "exportTest/failedResultHasNoCompletion",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.1617516
+      },
+      {
+        "name": "exportTest/invalidOutputParents",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.1329515
+      },
+      {
+        "name": "exportTest/invalidGeneratorArguments",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.1747958
+      },
+      {
+        "name": "pipelineTest/savedFamilyInference(family=PLS)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.45456350000000006
+      },
+      {
+        "name": "pipelineTest/savedFamilyInference(family=Groupwise_PLS)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.1387855
+      },
+      {
+        "name": "pipelineTest/savedFamilyInference(family=ElasticNet)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.21225409999999997
+      },
+      {
+        "name": "pipelineTest/savedFamilyInference(family=Tree_Ensemble)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 2.8916122
+      },
+      {
+        "name": "pipelineTest/constantsAllFamilies",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.1719931
+      },
+      {
+        "name": "pipelineTest/syntheticTargetsDeterministic(target=Mw)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 4.3615675
+      },
+      {
+        "name": "pipelineTest/syntheticTargetsDeterministic(target=SmallMolecules)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 4.144914
+      },
+      {
+        "name": "pipelineTest/plsAndArbitraryGroups",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0791567
+      },
+      {
+        "name": "pipelineTest/testLabelsAreIsolated",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0438468
+      },
+      {
+        "name": "pipelineTest/droppedRowsRetainAlignment",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0231157
+      },
+      {
+        "name": "pipelineTest/rejectsOverlapBeforeDropping",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0208276
+      },
+      {
+        "name": "pipelineTest/rejectsUnseenGroups",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0544629
+      },
+      {
+        "name": "pipelineTest/rejectsInvalidInputs",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0318407
+      },
+      {
+        "name": "pipelineTest/missingIdentifiers",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0097252
+      },
+      {
+        "name": "pipelineTest/insufficientGroupBatches",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0359143
+      },
+      {
+        "name": "pipelineTest/metricsFinitePairsAndEdges",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.053182499999999994
+      },
+      {
+        "name": "pipelineTest/rejectsUnknownSavedModel",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0696926
+      }
+    ],
+    "analyzerFileCount": 16,
+    "analyzerMessages": []
+  },
+  "baseSuite": {
+    "passed": true,
+    "matlabVersion": "25.1.0.2973910 (R2025a) Update 1",
+    "includeToolboxTests": false,
+    "testCount": 52,
+    "passedCount": 52,
+    "failedCount": 0,
+    "incompleteCount": 0,
+    "durationSeconds": 7.036058199999999,
+    "tests": [
+      {
+        "name": "customPLSTest/exactRegression",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.33448459999999997
+      },
+      {
+        "name": "customPLSTest/fullRankMatchesOLS",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.1526086
+      },
+      {
+        "name": "customPLSTest/rankExhaustion",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0795936
+      },
+      {
+        "name": "customPLSTest/constantResponse",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0182537
+      },
+      {
+        "name": "customPLSTest/constantPredictors",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0332417
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=1,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.027253600000000003
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=1,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0178425
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=2,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0462348
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=2,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.024749300000000002
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=3,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.008240299999999999
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=3,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.008063800000000001
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=4,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.004418
+      },
+      {
+        "name": "customPLSTest/scoreProjection(component=4,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.004897
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=1,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0425368
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=1,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.010557
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=2,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.008605199999999999
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=2,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0069955
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=3,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0183852
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=3,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0051821
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=4,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0045219
+      },
+      {
+        "name": "customPLSTest/cvPrefixMatchesSeparateFit(component=4,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0048533
+      },
+      {
+        "name": "customPLSTest/validationLabelsAreIsolated(reduce=false,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0247353
+      },
+      {
+        "name": "customPLSTest/validationLabelsAreIsolated(reduce=false,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0092918
+      },
+      {
+        "name": "customPLSTest/validationLabelsAreIsolated(reduce=true,scale=false)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0768237
+      },
+      {
+        "name": "customPLSTest/validationLabelsAreIsolated(reduce=true,scale=true)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0213072
+      },
+      {
+        "name": "customPLSTest/reducedPredictorsStayAligned",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0314799
+      },
+      {
+        "name": "customPLSTest/incompleteAndEmptyInference",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0442813
+      },
+      {
+        "name": "customPLSTest/invalidShapesAndFolds",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.1918513
+      },
+      {
+        "name": "customPLSTest/rowSNV",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.045931599999999996
+      },
+      {
+        "name": "customPLSTest/publicVerification",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.1407271
+      },
+      {
+        "name": "exportTest/generatorDeterminismAndRNG",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.9215981000000001
+      },
+      {
+        "name": "exportTest/defaultDoesNotWrite",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 1.0075104000000001
+      },
+      {
+        "name": "exportTest/exportFormats(format=mat)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.28340360000000003
+      },
+      {
+        "name": "exportTest/exportFormats(format=csv)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.8229304000000001
+      },
+      {
+        "name": "exportTest/exportFormats(format=both)",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.4516757
+      },
+      {
+        "name": "exportTest/repeatedExportsStayIntact",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.26877439999999997
+      },
+      {
+        "name": "exportTest/rejectsNonSyntheticMetadata",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0944972
+      },
+      {
+        "name": "exportTest/failedExportIsPartial",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.28112499999999996
+      },
+      {
+        "name": "exportTest/repeatedResultsStayIntact",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.3828901
+      },
+      {
+        "name": "exportTest/failedResultHasNoCompletion",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.15878699999999998
+      },
+      {
+        "name": "exportTest/invalidOutputParents",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.1248505
+      },
+      {
+        "name": "exportTest/invalidGeneratorArguments",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.11362420000000001
+      },
+      {
+        "name": "pipelineTest/plsAndArbitraryGroups",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.35084389999999993
+      },
+      {
+        "name": "pipelineTest/testLabelsAreIsolated",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0504594
+      },
+      {
+        "name": "pipelineTest/droppedRowsRetainAlignment",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0252019
+      },
+      {
+        "name": "pipelineTest/rejectsOverlapBeforeDropping",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.019250299999999998
+      },
+      {
+        "name": "pipelineTest/rejectsUnseenGroups",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.08109279999999999
+      },
+      {
+        "name": "pipelineTest/rejectsInvalidInputs",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.025246099999999997
+      },
+      {
+        "name": "pipelineTest/missingIdentifiers",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0094978
+      },
+      {
+        "name": "pipelineTest/insufficientGroupBatches",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.0373697
+      },
+      {
+        "name": "pipelineTest/metricsFinitePairsAndEdges",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.046214500000000006
+      },
+      {
+        "name": "pipelineTest/rejectsUnknownSavedModel",
+        "passed": true,
+        "failed": false,
+        "incomplete": false,
+        "durationSeconds": 0.031267500000000004
+      }
+    ],
+    "analyzerFileCount": 16,
+    "analyzerMessages": []
+  },
+  "freshProcessArchiveExtractionPassed": true,
+  "externalWorkspaceDependencyCount": 0,
+  "baseMatlabAndSharedPathsOnlyPassed": true,
+  "statisticsFunctionsUnavailableDuringBaseSuite": true,
+  "matlabSharedAndStatisticsPathsOnlyPassed": true,
+  "systemIdentificationPredictUnavailable": true,
+  "audit": {
+    "sourceOnly": true,
+    "forbiddenTextMatchCount": 0,
+    "excludedAssetCount": 645,
+    "sizeMatchedHashCandidates": 0,
+    "exactPrivateAssetMatches": 0,
+    "originalAssetFilenameMatches": 0,
+    "privateWorkbookCount": 1,
+    "distinctPrivateIdentifiersChecked": 2,
+    "privateIdentifierMatches": 0,
+    "limitations": "Allowlist, file-type/UTF-8, text-pattern, exact asset and bounded identifier checks; not a semantic proof about every possible private value. No research arrays loaded."
+  },
+  "testedSourceSHA256": {
+    "+softsensor/customPLS.m": "39ce02821fd663869ca4749c85bc6058b24bbcb10d24fbcecb4b0a162523efd5",
+    "+softsensor/customPLSCV.m": "4ca4d2f7b2803cd79956005145c2b0a1719035b222e755658e03fc49564eb4e6",
+    "+softsensor/evaluateMetrics.m": "20219fe2f323da4477546a1c268a87e7cb08a010d1c936031194333ec98025c3",
+    "+softsensor/exportSyntheticData.m": "ae0cbd2b087478cbabf89da2724a6da023ad3ae1f53e9ab5b3fb5123c6857a3a",
+    "+softsensor/fitAndEvaluate.m": "ce6766948131232dcd30d42512087c19d7d553a7e9bcb4403b9bc340a1ea8e3a",
+    "+softsensor/generateSyntheticData.m": "a2a360b22a67bd999492ec32bdde4f4fc5960f9091a38e3681f6ce6156726e46",
+    "+softsensor/predictCustomPLS.m": "9d8657b669a57e97bbb1a74a518c321900d0b25ee8b76ce3db4f5c70f3cc36fb",
+    "+softsensor/predictFittedModel.m": "1def7b0aba8d03ab22b66cfac491c02807b0367b45d114933d01015686e1c6c2",
+    "+softsensor/runSyntheticDemo.m": "0565827860448bd4504192526efc66e58706d1c127959e475d2f3365177f33cd",
+    "+softsensor/saveResult.m": "136e2f1d35e49fdfb04068381751c094b36d8f50409018c120ee2fa8cc3ae2a0",
+    "+softsensor/spectralSNV.m": "6653aa40898af38b15abc1dcb42b6abacde809849565db65dca83d751fc2bd58",
+    "+softsensor/verifyCustomPLS.m": "8ff85359c7e5c77b95d8139bbe85911dd4a93a16fd09e8406e942cd780f196ef",
+    "+softsensor/verifyRelease.m": "45ec319841e539bfee8d6cbba93411d57ab757ff75bf4b1818db6391d4012a32",
+    "tests/customPLSTest.m": "1588b28edcc07c0f9f12fb946473a64470ef35a59ea3cebb661b23cc448cf60c",
+    "tests/exportTest.m": "0656f2d7bddb7cb8a17ab0e2ee479b5710d464c94e320165d375b730c7ae3eed",
+    "tests/pipelineTest.m": "041e5f7bf174ee6523738820bee7076f26bd2ff2038cbc602161f6f660a3c48e"
+  },
+  "limitations": "Artificial-data software checks on one MATLAB/OS version; no original-study reproduction or absolute bug-freedom claim."
+}
